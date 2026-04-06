@@ -1,0 +1,129 @@
+   .navbar-brand {
+     font-weight: 700;
+     font-size: 1.5rem;
+     color: #007bff !important;
+   }
+
+   .nav-link {
+     font-weight: 500;
+     color: #333 !important;
+     transition: color 0.3s ease;
+   }
+
+   .nav-link:hover {
+     color: #007bff !important;
+   }
+
+   .navbar {
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+
+
+
+.service-card {
+      background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+          display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px 0;
+    }
+
+
+
+    h2 {
+      font-weight: 700;
+      margin-bottom: 50px;
+      color: #007bff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .card-container {
+      perspective: 1000px;
+    }
+
+    .card-flip {
+      width: 100%;
+      height: 320px;
+      transform-style: preserve-3d;
+      transition: transform 0.8s ease-in-out;
+      border-radius: 20px;
+    }
+
+    .card-container:hover .card-flip {
+      transform: rotateY(180deg);
+    }
+
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: cover;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .front {
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .front img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .front h5 {
+      margin-top: 15px;
+      font-weight: 600;
+      color: #007bff;
+    }
+
+    .back {
+    background-image: url(../assets/id\ cards.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+      color: #fff;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 25px;
+    }
+
+    .back p {
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-custom {
+      background: #fff;
+      color: #007bff;
+      border-radius: 25px;
+      padding: 8px 18px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background: #f1f1f1;
+      color: #0056b3;
+    }
+
+
+

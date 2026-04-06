@@ -1,0 +1,271 @@
+   .navbar-brand {
+     font-weight: 700;
+     font-size: 1.5rem;
+     color: #007bff !important;
+
+   }
+
+   .nav-link {
+     font-weight: 500;
+     color: #333 !important;
+     transition: color 0.3s ease;
+   }
+
+   .nav-link:hover {
+     color: #007bff !important;
+   }
+
+   .navbar {
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .bg-image {
+     background-image: url(../assets/background\ 1.jpg);
+     background-size: cover;
+     background-position: center;
+     
+     background-repeat: no-repeat;
+     height: 90vh;
+     width: 100%;
+     background-attachment: fixed;
+     text-align: center;
+     animation: zoomEffect 15s infinite alternate;
+   }
+
+   @keyframes zoomEffect {
+  0% {
+    background-size: 100%; /* normal */
+  }
+  100% {
+    background-size: 130%; /* zoom in */
+  }
+}
+   .body {
+     background-color: #69aff5;
+     min-height: 85vh;
+     display: flex;
+     align-items: center;
+   }
+
+   .card-container {
+     perspective: 1000px;
+
+   }
+
+   .card-flip {
+     position: relative;
+     width: 100%;
+     height: 380px;
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+   }
+
+   .card-container:hover .card-flip {
+     transform: rotateY(180deg);
+   }
+
+   .card-front,
+   .card-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     backface-visibility: hidden;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+   }
+
+   .card-front {
+     background: rgb(255, 255, 255);
+  
+
+   }
+
+   .card-back {
+
+     background-image: url(../assets/background\ \ colors.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     color: #fff;
+     transform: rotateY(180deg);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+   }
+
+   .card-img-top {
+     height: 180px;
+     object-fit: cover;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+   }
+
+   .card-body h5 {
+     font-weight: 600;
+   }
+
+   @media (max-width: 767px) {
+     .card-flip {
+       height: 360px;
+     }
+   }
+
+
+
+
+
+   .paragraph {
+
+     background: linear-gradient(135deg, #007bff, #6610f2);
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .big-card {
+     background: #ffffff;
+     border-radius: 20px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+     max-width: 900px;
+     padding: 60px 40px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+   .big-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+   }
+
+   .big-card h2 {
+     color: #007bff;
+     font-weight: 700;
+     font-size: 2.2rem;
+     margin-bottom: 20px;
+     text-align: center;
+   }
+
+   .big-card p {
+     color: #555;
+     font-size: 1.1rem;
+     line-height: 1.8;
+     text-align: justify;
+   }
+
+   @media (max-width: 768px) {
+     .big-card {
+       padding: 40px 25px;
+     }
+
+     .big-card h2 {
+       font-size: 1.8rem;
+     }
+   }
+
+
+
+   .div-cards {
+     background-color: #f8f9fa;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .service-card {
+
+     background-image: url(../assets/background\ \ colors.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     border-radius: 12px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease;
+     padding: 30px 20px;
+     text-align: center;
+   }
+
+   .service-card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+   }
+
+   .service-card i {
+     font-size: 40px;
+     color: #007bff;
+     margin-bottom: 15px;
+   }
+
+   .service-card h5 {
+     font-weight: 600;
+     color: #333;
+     margin-bottom: 10px;
+   }
+
+   .service-card p {
+     color: #666;
+     font-size: 0.95rem;
+   }
+
+   @media (max-width: 767px) {
+     .service-card {
+       margin-bottom: 20px;
+     }
+   }
+
+   .image-fluid-1 {
+     height: 150px;
+     width: 200px;
+   }
+
+
+
+
+
+   .footer-section {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: white;
+   }
+
+   .footer { 
+    background-color: cadetblue;
+     color: #ffffff;
+     padding: 60px 0 30px;
+   }
+
+   .footer a {
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s ease;
+   }
+
+   .footer a:hover {
+     color: #ffc107;
+     text-decoration: none;
+   }
+
+   .footer h5 {
+     font-weight: 700;
+     margin-bottom: 20px;
+   }
+
+   .social-icons a {
+     font-size: 18px;
+     margin-right: 15px;
+     display: inline-block;
+     transition: color 0.3s ease;
+   }
+
+   .social-icons a:hover {
+     color: #ffc107;
+   }
+
+   .footer-bottom {
+     border-top: 1px solid rgba(255, 255, 255, 0.3);
+     padding-top: 20px;
+     text-align: center;
+     margin-top: 30px;
+     font-size: 0.9rem;
+     color: rgba(255, 255, 255, 0.8);
+   }
