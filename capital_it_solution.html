@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071326">
+  <meta name="description" content="Capital IT Solution — computer and laptop repair, CCTV cameras, networking, printers and professional IT support in Islamabad.">
+  <title>Capital IT Solution | Smart Technology. Reliable Support.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+    :root{--navy:#071326;--navy2:#0c1e38;--blue:#3478f6;--cyan:#59e1e8;--ink:#14233b;--muted:#68768c;--pale:#f4f7fc;--line:#e5ebf4}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff}h1,h2,h3,h4,h5,.navbar-brand{font-family:'Space Grotesk',sans-serif}a{text-decoration:none}
+    .navbar{background:rgba(7,19,38,.94)!important;backdrop-filter:blur(16px);padding:15px 0;border-bottom:1px solid rgba(255,255,255,.09)}.navbar-brand{font-weight:700;color:white!important;letter-spacing:-.5px;display:flex;align-items:center;gap:10px}.brand-mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;color:#061326;font-size:19px}.nav-link{color:#c3cee0!important;font-weight:600;font-size:.94rem;margin:0 8px;transition:.2s}.nav-link:hover,.nav-link.active{color:#fff!important}.nav-cta{border-radius:999px;background:var(--blue);color:white!important;padding:10px 18px!important;margin-left:12px}.nav-cta:hover{background:#5590ff}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 34%,rgba(52,120,246,.25),transparent 36%),radial-gradient(ellipse at 12% 100%,rgba(89,225,232,.12),transparent 34%),linear-gradient(135deg,#061021 0%,#0a1c36 58%,#10264a 100%);color:white;padding:155px 0 100px;min-height:650px}.hero:before{content:"";position:absolute;inset:0;opacity:.16;background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,black,transparent)}.hero .container{position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border:1px solid rgba(89,225,232,.28);background:rgba(89,225,232,.08);border-radius:999px;color:#a4f4f2;font-size:.78rem;font-weight:700;letter-spacing:1.1px;text-transform:uppercase}.eyebrow i{font-size:.8rem}.hero h1{font-size:clamp(2.65rem,5.4vw,4.65rem);line-height:1.06;letter-spacing:-2.7px;font-weight:700;margin:24px 0}.gradient-text{background:linear-gradient(90deg,#fff 0%,#9cecf0 48%,#70a4ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:570px;color:#b7c5db;font-size:1.08rem;line-height:1.8}.btn-main{border:0;border-radius:12px;padding:14px 22px;background:linear-gradient(135deg,#3478f6,#2864df);color:white;font-weight:700;box-shadow:0 10px 30px rgba(52,120,246,.24);transition:.25s}.btn-main:hover{transform:translateY(-3px);color:white;box-shadow:0 15px 35px rgba(52,120,246,.34)}.btn-ghost{border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:13px 21px;color:white;font-weight:700}.btn-ghost:hover{background:rgba(255,255,255,.08);color:white}.hero-note{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#c9d5e7;font-size:.9rem}.hero-note i{color:var(--cyan);margin-right:7px}.hero-visual{position:relative;min-height:390px;display:grid;place-items:center}.orbit{position:absolute;width:min(390px,95%);aspect-ratio:1;border:1px solid rgba(132,174,255,.25);border-radius:50%;box-shadow:0 0 80px rgba(52,120,246,.12),inset 0 0 70px rgba(52,120,246,.08)}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(132,174,255,.2);border-radius:50%;inset:35px}.orbit:after{inset:72px}.device-card{position:relative;width:min(320px,90%);padding:25px;border:1px solid rgba(255,255,255,.18);border-radius:26px;background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(255,255,255,.045));backdrop-filter:blur(16px);box-shadow:0 28px 80px rgba(0,0,0,.3);transform:rotate(-4deg)}.device-top{display:flex;justify-content:space-between;align-items:center;color:#c5d5ec;font-size:.78rem}.device-screen{margin:22px 0 17px;border-radius:17px;padding:22px;background:linear-gradient(135deg,#102b52,#0a1830);min-height:160px;display:flex;flex-direction:column;justify-content:space-between}.screen-icon{font-size:44px;color:var(--cyan)}.screen-line{height:7px;background:rgba(255,255,255,.13);border-radius:9px;margin-top:8px}.screen-line.short{width:58%}.device-foot{display:flex;align-items:center;justify-content:space-between;color:#eaf3ff;font-size:.88rem}.status-dot{display:inline-block;width:8px;height:8px;background:#61e5b2;border-radius:50%;margin-right:7px;box-shadow:0 0 12px #61e5b2}.float-icon{position:absolute;display:grid;place-items:center;width:62px;height:62px;border-radius:19px;background:#132b4d;border:1px solid rgba(255,255,255,.17);color:var(--cyan);font-size:26px;box-shadow:0 15px 35px #020b18}.float-one{top:48px;right:4%}.float-two{bottom:48px;left:2%;color:#8fb5ff}.float-three{right:0;bottom:85px;color:#fff}
+    .trust-strip{background:white;border-bottom:1px solid var(--line);padding:24px 0}.trust-item{display:flex;align-items:center;justify-content:center;gap:12px;color:#44536b;font-weight:700;font-size:.94rem}.trust-item i{font-size:22px;color:var(--blue)}
+    section{padding:90px 0}.section-kicker{color:var(--blue);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:1.5px}.section-title{font-size:clamp(2rem,3.4vw,3rem);letter-spacing:-1.5px;font-weight:700;margin:12px 0 15px}.section-lead{max-width:650px;color:var(--muted);line-height:1.8}.service-card{height:100%;border:1px solid var(--line);border-radius:22px;padding:28px;background:white;transition:transform .25s,box-shadow .25s,border-color .25s;position:relative;overflow:hidden}.service-card:hover{transform:translateY(-7px);box-shadow:0 22px 55px rgba(20,44,83,.1);border-color:#c8d9ff}.service-icon{width:56px;height:56px;display:grid;place-items:center;border-radius:17px;background:#edf3ff;color:var(--blue);font-size:25px;margin-bottom:22px}.service-card h3{font-size:1.18rem;font-weight:700;margin-bottom:11px}.service-card p{color:var(--muted);line-height:1.7;font-size:.94rem;margin-bottom:18px}.text-link{font-weight:700;color:var(--blue);font-size:.91rem}.text-link i{transition:transform .2s;display:inline-block}.text-link:hover i{transform:translateX(4px)}
+    .about-section{background:var(--pale)}.about-panel{height:100%;padding:35px;border-radius:24px;background:linear-gradient(145deg,#0b1c34,#112d53);color:white;position:relative;overflow:hidden}.about-panel:after{content:"";position:absolute;width:240px;height:240px;border:1px solid rgba(89,225,232,.22);border-radius:50%;right:-100px;bottom:-100px;box-shadow:0 0 0 30px rgba(89,225,232,.04),0 0 0 65px rgba(89,225,232,.03)}.about-panel h3{font-size:1.8rem;line-height:1.25}.about-panel p{color:#b7c7dd;line-height:1.8}.check-list{list-style:none;padding:0;margin:24px 0 0}.check-list li{display:flex;gap:12px;margin:17px 0;color:#dbe6f5;line-height:1.55}.check-list i{color:var(--cyan);font-size:1.15rem}.benefit{display:flex;gap:16px;margin:26px 0}.benefit-icon{flex:0 0 48px;height:48px;border-radius:15px;background:#e7efff;color:var(--blue);display:grid;place-items:center;font-size:22px}.benefit h4{font-size:1.04rem;font-weight:700;margin:1px 0 6px}.benefit p{margin:0;color:var(--muted);font-size:.93rem;line-height:1.7}
+    .process-card{border:1px solid var(--line);border-radius:20px;padding:25px;height:100%}.process-number{font-family:'Space Grotesk';font-size:2rem;font-weight:700;color:#b8ccf8;margin-bottom:16px}.process-card h3{font-size:1.1rem;font-weight:700}.process-card p{font-size:.93rem;line-height:1.7;color:var(--muted);margin:0}
+    .cta-section{padding:0 0 90px}.cta-panel{position:relative;overflow:hidden;border-radius:28px;padding:52px;background:radial-gradient(circle at 90% 10%,rgba(89,225,232,.18),transparent 28%),linear-gradient(120deg,#09172d,#133461);color:white}.cta-panel h2{font-size:clamp(2rem,4vw,3rem);font-weight:700;letter-spacing:-1px}.cta-panel p{color:#c0cee1;max-width:600px;line-height:1.8}
+    footer{background:#061020;color:#aebbd0;padding:65px 0 24px}.footer-brand{color:white;font-size:1.25rem;font-weight:700}.footer-copy{line-height:1.8;font-size:.93rem;max-width:330px}.footer-heading{color:white;font-size:.95rem;font-weight:700;margin-bottom:18px}.footer-links{list-style:none;padding:0}.footer-links li{margin:11px 0}.footer-links a{color:#aebbd0;transition:.2s}.footer-links a:hover{color:var(--cyan)}.contact-line{display:flex;gap:10px;align-items:flex-start;margin:12px 0;line-height:1.65;font-size:.9rem;overflow-wrap:anywhere}.contact-line i{color:var(--cyan);margin-top:3px}.socials a{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:12px;border:1px solid #253651;color:#dce7f7;margin-right:8px}.socials a:hover{background:var(--blue);border-color:var(--blue);color:white}.footer-bottom{border-top:1px solid #20304a;margin-top:35px;padding-top:22px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:.85rem}.back-top{color:#c7d6ec}.back-top:hover{color:var(--cyan)}
+    @media(max-width:991px){.navbar-collapse{padding-top:16px}.nav-link{margin:5px 0}.nav-cta{display:inline-block;margin:8px 0 0!important;width:max-content}.hero{padding-top:130px}.hero-visual{min-height:330px;margin-top:28px}.hero h1{letter-spacing:-1.8px}.trust-item{padding:10px 0}}@media(max-width:575px){section{padding:68px 0}.hero{padding:120px 0 65px;min-height:auto}.hero h1{font-size:2.55rem}.hero-copy{font-size:1rem}.hero-visual{min-height:300px}.orbit{width:290px}.device-card{width:265px;padding:18px}.float-icon{width:50px;height:50px;border-radius:15px;font-size:21px}.float-one{right:0;top:25px}.float-two{left:0;bottom:20px}.float-three{right:0;bottom:40px}.trust-strip{padding:16px 0}.trust-item{justify-content:flex-start;padding-left:15px;font-size:.86rem}.service-card{padding:23px}.cta-panel{padding:30px 24px}.footer-bottom{display:block}.footer-bottom span{display:block;margin-bottom:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brand-mark"><i class="bi bi-cpu-fill"></i></span>Capital IT Solution</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process">How it works</a></li>
+          <li class="nav-item"><a class="nav-link nav-cta" href="#contact">Contact us <i class="bi bi-arrow-up-right ms-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="eyebrow"><i class="bi bi-stars"></i> Your trusted technology partner</span>
+            <h1>Smart technology.<br><span class="gradient-text">Reliable support.</span></h1>
+            <p class="hero-copy">From laptop repairs to CCTV security and complete networking, we help your home and business stay connected, protected and productive.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-main" href="#services">Explore our services <i class="bi bi-arrow-right ms-2"></i></a>
+              <a class="btn btn-ghost" href="#contact"><i class="bi bi-chat-dots me-2"></i>Talk to our team</a>
+            </div>
+            <div class="hero-note"><span><i class="bi bi-check-circle-fill"></i> Practical solutions</span><span><i class="bi bi-check-circle-fill"></i> Home & office support</span></div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-visual" aria-label="Illustration of technology support">
+              <div class="orbit"></div>
+              <div class="device-card">
+                <div class="device-top"><span><i class="bi bi-grid-1x2-fill me-2"></i>TECH SUPPORT</span><i class="bi bi-three-dots"></i></div>
+                <div class="device-screen"><div class="screen-icon"><i class="bi bi-laptop"></i></div><div><div class="screen-line"></div><div class="screen-line short"></div></div></div>
+                <div class="device-foot"><span><span class="status-dot"></span>Systems ready</span><i class="bi bi-shield-check fs-4"></i></div>
+              </div>
+              <div class="float-icon float-one"><i class="bi bi-shield-lock"></i></div>
+              <div class="float-icon float-two"><i class="bi bi-router"></i></div>
+              <div class="float-icon float-three"><i class="bi bi-printer"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="container"><div class="row">
+        <div class="col-6 col-lg-3 trust-item"><i class="bi bi-tools"></i><span>Repair & maintenance</span></div>
+        <div class="col-6 col-lg-3 trust-item"><i class="bi bi-camera-video"></i><span>Security solutions</span></div>
+        <div class="col-6 col-lg-3 trust-item"><i class="bi bi-router"></i><span>Network setup</span></div>
+        <div class="col-6 col-lg-3 trust-item"><i class="bi bi-headset"></i><span>IT consultation</span></div>
+      </div></div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-kicker">What we do</span>
+          <h2 class="section-title">Technology made simple.</h2>
+          <p class="section-lead mx-auto">One team for the devices, systems and security that keep your world running smoothly.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-laptop"></i></div><h3>Computer & laptop repair</h3><p>Diagnostics, hardware and software troubleshooting, upgrades and maintenance to help your devices perform at their best.</p><a class="text-link" href="#contact">Ask about repairs <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-camera-video"></i></div><h3>CCTV & IP cameras</h3><p>Explore IP and analog cameras, installation options and security setups tailored to your property.</p><a class="text-link" href="#contact">Explore security <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-router"></i></div><h3>Networking solutions</h3><p>Network setup and troubleshooting to help keep your home or office connected and running reliably.</p><a class="text-link" href="#contact">Improve your network <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-printer"></i></div><h3>Printers & toners</h3><p>Printer support, toner supplies and troubleshooting for everyday home and office printing needs.</p><a class="text-link" href="#contact">Get printer support <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-hdd-network"></i></div><h3>IT setup & consulting</h3><p>Practical advice on technology infrastructure, hardware selection, installation and system management.</p><a class="text-link" href="#contact">Discuss your setup <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+          <div class="col-md-6 col-lg-4"><article class="service-card"><div class="service-icon"><i class="bi bi-database-check"></i></div><h3>Data & system support</h3><p>Help with backup planning, data recovery options, maintenance and improving the reliability of your systems.</p><a class="text-link" href="#contact">Talk to an expert <i class="bi bi-arrow-right ms-1"></i></a></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5"><div class="about-panel"><span class="eyebrow mb-4">Capital IT Solution</span><h3>Dependable technology support for everyday challenges.</h3><p>We help individuals and businesses make better use of their technology through repair, installation and thoughtful IT guidance.</p><ul class="check-list"><li><i class="bi bi-check-circle-fill"></i><span>Support for home and office technology</span></li><li><i class="bi bi-check-circle-fill"></i><span>Hardware, software and connectivity assistance</span></li><li><i class="bi bi-check-circle-fill"></i><span>Solutions shaped around your needs</span></li></ul></div></div>
+          <div class="col-lg-7"><span class="section-kicker">Why work with us</span><h2 class="section-title">The right help, without the tech headache.</h2><p class="section-lead">Whether you're troubleshooting a single device or planning a complete setup, we focus on clear guidance and practical solutions.</p>
+            <div class="benefit"><div class="benefit-icon"><i class="bi bi-wrench-adjustable"></i></div><div><h4>Problem-solving first</h4><p>We help identify the issue and discuss the most sensible next steps before you commit to a solution.</p></div></div>
+            <div class="benefit"><div class="benefit-icon"><i class="bi bi-house-gear"></i></div><div><h4>Home and office services</h4><p>Get help with computers, printers, cameras and network systems for different environments.</p></div></div>
+            <div class="benefit"><div class="benefit-icon"><i class="bi bi-shield-check"></i></div><div><h4>Security and reliability</h4><p>Explore camera systems, backups and maintenance that support safer, more reliable technology.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="container">
+        <div class="text-center mb-5"><span class="section-kicker">Simple process</span><h2 class="section-title">Getting help is easy.</h2><p class="section-lead mx-auto">A clear path from your first question to a practical solution.</p></div>
+        <div class="row g-4">
+          <div class="col-md-4"><div class="process-card"><div class="process-number">01</div><h3>Tell us what you need</h3><p>Contact our team and describe your device, service request or technical issue.</p></div></div>
+          <div class="col-md-4"><div class="process-card"><div class="process-number">02</div><h3>Discuss your options</h3><p>We can talk through possible solutions, service requirements and the next steps.</p></div></div>
+          <div class="col-md-4"><div class="process-card"><div class="process-number">03</div><h3>Move forward confidently</h3><p>Choose the approach that works for you and arrange the support you need.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container"><div class="cta-panel"><div class="row align-items-center g-4"><div class="col-lg-8"><span class="eyebrow mb-3">Let's solve it together</span><h2>Need a hand with your technology?</h2><p>Reach out to Capital IT Solution for computer repairs, CCTV, networking, printers or IT consultation. Tell us what you need and we'll help you explore the next step.</p></div><div class="col-lg-4 text-lg-end"><a class="btn btn-main" href="tel:+923228523340"><i class="bi bi-telephone-fill me-2"></i>Call +92 322 8523340</a><div class="mt-3"><a href="mailto:capital.itsol@gmail.com" class="text-white-50">Or send us an email <i class="bi bi-arrow-up-right"></i></a></div></div></div></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6"><a class="footer-brand d-inline-flex align-items-center gap-2 mb-3" href="#home"><span class="brand-mark"><i class="bi bi-cpu-fill"></i></span>Capital IT Solution</a><p class="footer-copy">Technology services, repairs and IT guidance to help your devices and systems work better for you.</p><div class="socials"><a href="https://www.facebook.com/" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="https://www.instagram.com/" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div></div>
+        <div class="col-lg-2 col-md-6"><h5 class="footer-heading">Explore</h5><ul class="footer-links"><li><a href="#home">Home</a></li><li><a href="#services">Our services</a></li><li><a href="#about">About us</a></li><li><a href="#process">How it works</a></li><li><a href="#contact">Contact</a></li></ul></div>
+        <div class="col-lg-3 col-md-6"><h5 class="footer-heading">Our services</h5><ul class="footer-links"><li><a href="#services">Computer & laptop repair</a></li><li><a href="#services">CCTV & IP cameras</a></li><li><a href="#services">Networking</a></li><li><a href="#services">Printers & toners</a></li><li><a href="#services">IT consulting</a></li></ul></div>
+        <div class="col-lg-3 col-md-6"><h5 class="footer-heading">Contact details</h5><div class="contact-line"><i class="bi bi-person-fill"></i><span>Waseem Rauf</span></div><div class="contact-line"><i class="bi bi-geo-alt-fill"></i><span>Khanna Pul, Lehtrar Road, Orakzai Plaza, Islamabad</span></div><div class="contact-line"><i class="bi bi-telephone-fill"></i><a href="tel:+923228523340" class="text-reset">+92 322 8523340</a></div><div class="contact-line"><i class="bi bi-envelope-fill"></i><a href="mailto:capital.itsol@gmail.com" class="text-reset">capital.itsol@gmail.com</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> Capital IT Solution. All rights reserved.</span><a class="back-top" href="#home">Back to top <i class="bi bi-arrow-up ms-1"></i></a></div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
